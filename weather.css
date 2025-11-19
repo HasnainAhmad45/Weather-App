@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+    background-color: rgb(109, 159, 179);
+}
+.container{
+    height: 450px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 176, 169);;
+}
+.div-1{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.in{
+    width: 233px;
+    height: 35px;
+    border-radius: 35px;
+    border: none;
+    outline: 0;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: monospace;
+}
+.in::placeholder{
+    font-size: 16px;
+    font-family: monospace;
+}
+.s-logo{
+    width: 25px;
+    height: 25px;
+}
+.w-logo{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.btn-1{
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn-1:hover{
+    background-color: rgba(59, 6, 138, 0.201);
+}
+.div-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.div-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    height: 80px;
+}
+.div-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    height: 70px;
+}
+.div-5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 250px;
+    font-size: 15px;
+}
+.right,.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 110px;
+}
+.right{
+    width: 130px;
+}
+.h-logo,.ws-logo{
+    width: 35px;
+    height: 35px;
+}
+.super{
+    font-size: 25px;
+    margin-bottom: 18px;
+}
